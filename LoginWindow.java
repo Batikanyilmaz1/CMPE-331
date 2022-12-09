@@ -1,8 +1,8 @@
 /*
  * Stage: Development-01
- * @author: Batıkan Yılmaz
- * @author Abdulrahman Aorfahlı
- * @Waleed Khaled Mohammad Alghool
+ * @author: Batıkan Yılmaz, 120200036
+ * @author Abdulrahman Aorfahlı, 119200028
+ * @author: Waleed Khaled Mohammad Alghool, 121200167
  *
  */
 
@@ -110,6 +110,7 @@ public class LoginWindow extends JFrame implements ActionListener {
         return new Insets(100, 50, 100, 50);
     }
 	
+	//set name and passwords
 	public void setNamePass(String name, String password) {
 		this.name=name;
 		this.password=password;
